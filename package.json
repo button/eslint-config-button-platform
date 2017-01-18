@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-button",
+  "version": "1.0.2",
+  "description": "Button's eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/button/eslint-config-button.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "lint",
+    "javascript",
+    "styleguide",
+    "button"
+  ],
+  "author": "Button",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/button/eslint-config-button/issues"
+  },
+  "homepage": "https://github.com/button/eslint-config-button#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^13.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
