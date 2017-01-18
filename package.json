@@ -27,13 +27,13 @@
   "homepage": "https://github.com/button/eslint-config-button#readme",
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint-config-airbnb": "^13.0.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=3",
+    "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.7.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3",
   },
   "files": [
     "index.js"
