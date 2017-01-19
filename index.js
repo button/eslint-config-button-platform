@@ -31,7 +31,7 @@ module.exports = {
     "keyword-spacing": "error",
 
     // React components should have double quotes:
-    // `<Bar baz="foo" />``
+    // `<Bar baz="foo" />`
     "jsx-quotes": ["error", "prefer-double"],
 
     // Unreachable code is an error
