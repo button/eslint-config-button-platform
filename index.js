@@ -179,7 +179,10 @@ module.exports = {
     // props as proxy to a child.
     "react/no-unused-prop-types": "off",
 
-    // Mocha functions should use function expressions, not arrow functions.
-    "mocha/no-mocha-arrows": "error"
+    // Mocha functions should use function expressions, not arrow functions
+    "mocha/no-mocha-arrows": "error",
+
+    // Either function expressions or arrow callbacks can be used
+    "prefer-arrow-callback": "off"
   }
 };
