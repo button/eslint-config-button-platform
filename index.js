@@ -2,7 +2,8 @@ module.exports = {
   "parser": "babel-eslint",
   "extends": ["eslint:recommended", "airbnb"],
   "plugins": [
-    "react"
+    "react",
+    "mocha"
   ],
   "rules": {
     // Single quotes instead of double quotes
