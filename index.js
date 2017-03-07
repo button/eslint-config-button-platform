@@ -21,7 +21,7 @@ module.exports = {
     // never mark it as not needed.
     "react/jsx-uses-react": "warn",
 
-    // Desctructuring siblings are okay
+    // Destructuring siblings are okay
     "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
 
     // {bar: baz} bad; { bar: baz } good
