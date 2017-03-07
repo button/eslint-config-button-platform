@@ -21,9 +21,8 @@ module.exports = {
     // never mark it as not needed.
     "react/jsx-uses-react": "warn",
 
-    // Allow variable names starting with `_` to be unused; useful for
-    // destructuring when you only need one of the returned values
-    "no-unused-vars": ["error", { "args": "after-used", "varsIgnorePattern": "^_+" }],
+    // Destructuring siblings are okay
+    "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
 
     // {bar: baz} bad; { bar: baz } good
     "object-curly-spacing": ["error", "always"],

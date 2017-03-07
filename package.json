@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-button",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Button's eslint config",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/button/eslint-config-button#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": ">=3",
+    "eslint": ">=3.15.0",
     "babel-eslint": "^7.1.1",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
