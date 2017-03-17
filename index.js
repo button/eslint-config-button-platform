@@ -86,6 +86,18 @@ module.exports = {
       'WithStatement',
     ],
 
+    'comma-dangle': ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "functions": "never", // This is a syntax error...
+    }],
+
+    // This is too difficult to refactor and provides little value.
+    "no-shadow": "off",
+
+    // We use ++ and -- all over the place and it seems innocuous enough?
+    "no-plusplus": "off",
+
     // Don't require function brackets: `const foo = (a) => true;` is okay
     "arrow-body-style": "off",
 
@@ -103,9 +115,6 @@ module.exports = {
       "allowShortCircuit": true,
       "allowTernary": true
     }],
-
-    // `function foo () {}` bad;  `function foo() {}` good
-    "space-before-function-paren": ["error", "never"],
 
     // Allow member functions to not access `this`
     "class-methods-use-this": "off",
