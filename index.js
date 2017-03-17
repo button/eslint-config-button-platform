@@ -68,7 +68,7 @@ module.exports = {
 
     // Do not allow reassigning to function arguments or properties of them, with the exception of
     // the ctx parameter in Koa.
-    "no-param-reassign": ["off", {
+    "no-param-reassign": ["error", {
       "props": true,
       "ignorePropertyModificationsFor": ["ctx"]
     }],
