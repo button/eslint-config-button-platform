@@ -66,12 +66,13 @@ module.exports = {
 
     // Intentional overrides to airbnb's configs
 
-    // Do not allow reassigning to function arguments or properties of them, with the exception of
-    // the ctx parameter in Koa.
-    "no-param-reassign": ["error", {
-      "props": true,
-      "ignorePropertyModificationsFor": ["ctx"]
-    }],
+    // Allow multiple variable declarations for a single var/let/const statement.
+    "one-var": "off",
+
+    // We do not usually follow the functional style, and so it's normal to write functions that
+    // have side effects on arguments. Also, reassigning arguments for defensive argument validation
+    // and coersion is a frequent use case.
+    "no-param-reassign": "off",
 
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
@@ -126,7 +127,10 @@ module.exports = {
     "newline-per-chained-call": "off",
 
     // Man line length is 100
-    "max-len": ["error", 100],
+    "max-len": ["error", 100, {
+      "ignoreTemplateLiterals": true,
+      "ignoreUrls": true,
+    }],
 
     // Mocha functions should use function expressions, not arrow functions
     "mocha/no-mocha-arrows": "error",
