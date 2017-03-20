@@ -74,6 +74,16 @@ module.exports = {
     // and coersion is a frequent use case.
     "no-param-reassign": "off",
 
+    // It's often better to order code in files by most important/relevant to least
+    // important/relevant rather than by declaration. For example, you might have multiple less
+    // important helper functions that are used before they are defined because the usage is much
+    // more important than the helpers themselves. Take advantage of function/class hoisting rather
+    // than banning it. Var hoisting is almost universally confusing though, so keep that disabled.
+    "no-use-before-define": ["error", {
+      "functions": false,
+      "classes": false
+    }],
+
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
     // This relaxes the disallow ForInStatement and ForOfStatemnet in airbnb. It would be a lot of
