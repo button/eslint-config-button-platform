@@ -1,3 +1,6 @@
+* 1.0.3 March 21, 2017
+  - Set `ecmaVersion` to 2017 to support async/await
+
 * 1.0.2 March 20, 2017
   - Disable no-use-before-define for functions and classes
 

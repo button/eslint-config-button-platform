@@ -8,6 +8,9 @@ module.exports = {
     "airbnb-base/rules/variables",
     "airbnb-base/rules/es6",
   ],
+  parserOptions: {
+    ecmaVersion: 2017,
+  },
   "plugins": [
     "mocha"
   ],
