@@ -1,3 +1,6 @@
+* 1.0.4 March 21, 2017
+  - Add environment to the base config
+
 * 1.0.3 March 21, 2017
   - Set `ecmaVersion` to 2017 to support async/await
 
