@@ -154,6 +154,13 @@ module.exports = {
     "mocha/no-mocha-arrows": "error",
 
     // Either function expressions or arrow callbacks can be used
-    "prefer-arrow-callback": "off"
+    "prefer-arrow-callback": "off",
+
+    // No multiple blank lines.
+    "no-multiple-empty-lines": ["error", {
+      "max": 2,
+      "maxEOF": 1,
+      "maxBOF": 0
+    }]
   }
 };
