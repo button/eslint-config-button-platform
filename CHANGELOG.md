@@ -1,3 +1,6 @@
+* 1.1.0 July 14, 2017
+  - Rule change: Enforce `no-multiple-empty-lines`.
+
 * 1.0.4 March 21, 2017
   - Add environment to the base config
 
