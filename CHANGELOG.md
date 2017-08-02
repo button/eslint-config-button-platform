@@ -1,3 +1,7 @@
+* 1.2.0 August 2, 2017
+  - Add prettier compatibility rules
+  - Add mocha exclusive rule
+
 * 1.1.0 July 14, 2017
   - Rule change: Enforce `no-multiple-empty-lines`.
 
