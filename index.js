@@ -147,6 +147,7 @@ module.exports = {
     // Man line length is 100
     "max-len": ["error", 100, {
       "ignoreTemplateLiterals": true,
+      "ignoreStrings": true,
       "ignoreUrls": true,
     }],
 
@@ -161,6 +162,13 @@ module.exports = {
       "max": 2,
       "maxEOF": 1,
       "maxBOF": 0
-    }]
+    }],
+
+    // `function foo(x) {}` is okay
+    "space-before-function-paren": "off",
+
+    // `it.only`, `describe.only` et. al. will error.  Not helpful if you run
+    // your lint rule as a mocha test case itself.
+    "mocha/no-exclusive-tests": "error"
   }
 };
