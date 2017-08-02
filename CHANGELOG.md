@@ -1,3 +1,6 @@
+* 1.3.0 August 2, 2017
+  - Allow multiple variable declarations on a line for prettier compability
+
 * 1.2.0 August 2, 2017
   - Add prettier compatibility rules
   - Add mocha exclusive rule

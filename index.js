@@ -77,6 +77,10 @@ module.exports = {
     // Allow multiple variable declarations for a single var/let/const statement.
     "one-var": "off",
 
+    // Allow multiple variable variable declarations on one line
+    // But only allow initializations on a new line
+    "one-var-declaration-per-line": "initializations",
+
     // We do not usually follow the functional style, and so it's normal to write functions that
     // have side effects on arguments. Also, reassigning arguments for defensive argument validation
     // and coersion is a frequent use case.
