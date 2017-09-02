@@ -1,3 +1,6 @@
+* 1.3.0 September 1, 2017
+  - Add more compatibility rules for prettier (mixed-operators and quotes)
+
 * 1.2.0 August 2, 2017
   - Add prettier compatibility rules
   - Add mocha exclusive rule
