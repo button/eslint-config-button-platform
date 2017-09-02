@@ -24,7 +24,12 @@ module.exports = {
     "require-yield": "off",
 
     // Single quotes instead of double quotes
-    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "quotes": ["error", "single", {
+	"allowTemplateLiterals": true,
+
+	// Allow use of double quotes if it avoids escaping a single quote.
+	"avoidEscape": true
+    }],
 
     // Allow leading underscores for "private" methods
     "no-underscore-dangle": "off",
@@ -41,6 +46,12 @@ module.exports = {
 
     // Place spaces after keywords
     "keyword-spacing": "error",
+
+     // Allow mixing operators. Risky, but required for prettier.
+    "no-mixed-operators": "off",
+
+    // Allow multiple variables to be intialized on a single line.
+    "one-var-declaration-per-line": "off",
 
     // Unreachable code is an error
     "no-unreachable": "error",
