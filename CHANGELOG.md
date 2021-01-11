@@ -1,3 +1,7 @@
+* 1.3.0 January 8, 2021
+  - Updates eslint rules
+  - Updates peer dependencie versions
+
 * 1.2.0 August 2, 2017
   - Add prettier compatibility rules
   - Add mocha exclusive rule
