@@ -1,3 +1,10 @@
+* 2.0.0 January 11, 2021
+  - Scopes package to button organization
+  Projects using eslint can extend the repo like so:
+  ```
+  "extends": "@button/eslint-config-button-platform"
+  ```
+
 * 1.3.0 January 8, 2021
   - Updates eslint rules
   - Updates peer dependencie versions

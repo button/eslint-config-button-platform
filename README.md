@@ -7,19 +7,19 @@ Button's eslint config
 ###### npm
 
 ```bash
-npm install --save-dev eslint-config-button-platform
+npm install --save-dev @button/eslint-config-button-platform
 ```
 
 ###### yarn
 
 ```bash
-yarn add eslint-config-button-platform --dev
+yarn add --dev @button/eslint-config-button-platform
 ```
 
 Additionally, you'll need to install all dependencies enumerated by:
 
 ```bash
-npm info eslint-config-button-platform peerDependencies
+npm info @button/eslint-config-button-platform peerDependencies
 ```
 
 ## Usage
@@ -28,6 +28,6 @@ In your `.eslintrc` or equivalent:
 
 ```json
 {
-  "extends": "button-platform"
+  "extends": "@button/eslint-config-button-platform"
 }
 ```
