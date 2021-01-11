@@ -1,4 +1,4 @@
-* 1.4.0 January 11, 2021
+* 2.0.0 January 11, 2021
   - Scopes package to button organization
   Projects using eslint can extend the repo like so:
   ```

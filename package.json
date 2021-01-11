@@ -1,6 +1,6 @@
 {
   "name": "@button/eslint-config-button-platform",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Button Platform's eslint config",
   "main": "index.js",
   "publishConfig": {
