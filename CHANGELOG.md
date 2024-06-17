@@ -1,3 +1,6 @@
+* 2.1.0 June 17, 2024
+  - Update ECMA version to 2020
+
 * 2.0.0 January 11, 2021
   - Scopes package to button organization
   Projects using eslint can extend the repo like so:
